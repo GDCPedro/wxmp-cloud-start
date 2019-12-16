@@ -20,37 +20,39 @@
     "pages/showPoetry/poetry",
     "pages/me/me",
     "pages/poetryDetail/detail",
-    "pages/rate/rate"
+    "pages/rate/rate",
+    "pages/tcb/tcb",
+    "pages/newComment/newComment"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#00CD66",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "广场",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#333",
-    "selectedColor": "#00CD66",
+    "selectedColor": "#1296db",
     "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "主页",
-        "iconPath": "images/home.png",
-        "selectedIconPath": "images/home_1.png"
+        "text": "广场",
+        "iconPath": "images/plaza.png",
+        "selectedIconPath": "images/plaza-selected.png"
       },
       {
-        "pagePath": "pages/poetry/ci",
-        "text": "搜索",
-        "iconPath": "images/SEARCH.png",
-        "selectedIconPath": "images/SEARCH.png"
+        "pagePath": "pages/newComment/newComment",
+        "text": "发布",
+        "iconPath": "images/publish.png",
+        "selectedIconPath": "images/publish-selected.png"
       },
       {
         "pagePath": "pages/me/me",
         "text": "我",
-        "iconPath": "images/account.png",
-        "selectedIconPath": "images/user-fill.png"
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-selected.png"
       }
     ]
   },

@@ -75,7 +75,7 @@ Page({
 
   onQuery: function (e) {
     // const _this = this;
-    let queryText = e.detail.value;
+    const queryText = e.detail.value;
     const db = wx.cloud.database();
     db.collection("ci").where({
       rhythmic: queryText

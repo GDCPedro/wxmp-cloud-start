@@ -117,4 +117,16 @@ Page({
     })
   },
 
+  tapLogin() {
+    console.log(1)
+    wx.getUserInfo({
+      success: res => {
+        console.log(res)
+      }
+    })
+  },
+
+  bindGetUserInfo(e) {
+    console.log(e)
+  }
 })
